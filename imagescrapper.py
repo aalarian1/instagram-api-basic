@@ -6,7 +6,7 @@ from selenium import webdriver
 import time, requests
 
 def search_google(search_query):
-    browser = webdriver.Chrome(executable_path=r'/Users/macbookair/Downloads/chromedriver')
+    browser = webdriver.Chrome(executable_path=r'/path/to/file/chromedriver')
     search_url = f"https://www.google.com/search?site=&tbm=isch&source=hp&biw=1873&bih=990&q={search_query}"
     images_url = []
 
