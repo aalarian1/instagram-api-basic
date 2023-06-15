@@ -92,12 +92,12 @@ Here is a basic outline of the project's directory structure and the role of eac
 - `test_publish_tutorial.py`: Code to test publishing tutorials.
 - `text.py`: Likely contains functions related to text processing.
 - `unsplash.py`: May contain code related to Unsplash, possibly image scraping or API communication.
-- 'fetching.py': Fetches quotes from the API and processes the JSON response.
-- 'image_processing.py': Fetches images from a public URL, adds a text overlay to them, and saves them to the local machine.
-- 'publishing.py': Utilizes the Instagram Graph API to create a media object, check its status, and publish the media on Instagram.
-- 'serialcode.py': Generates and maintains a count of the number of times the program is called.
-- 'test_publish_tutorial.py': Tests the publishing functionality of the bot.
-- 'defines_py3.py': Contains necessary credentials and parameters needed for the Instagram API calls.
+- `fetching.py`: Fetches quotes from the API and processes the JSON response.
+- `image_processing.py`: Fetches images from a public URL, adds a text overlay to them, and saves them to the local machine.
+- `publishing.py`: Utilizes the Instagram Graph API to create a media object, check its status, and publish the media on Instagram.
+- `serialcode.py`: Generates and maintains a count of the number of times the program is called.
+- `test_publish_tutorial.py`: Tests the publishing functionality of the bot.
+- `defines_py3.py`: Contains necessary credentials and parameters needed for the Instagram API calls.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
