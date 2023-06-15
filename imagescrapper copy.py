@@ -7,14 +7,14 @@ import time, requests
 
 
 # def search_google():#(search_query)
-browser = webdriver.Chrome(executable_path=r'/Users/macbookair/Downloads/chromedriver')
+browser = webdriver.Chrome(executable_path=r'/path/to/file')
 search_url = f"https://www.pexels.com/search/dawn%20sky%201080px1080p/"
 images_url = []
 # open browser and begin search
 browser.get(search_url)
 elements = browser.find_elements_by_class_name('photo-item')
 
-APIIII
+
 count = 0
 for e in elements:
     # get images source url
